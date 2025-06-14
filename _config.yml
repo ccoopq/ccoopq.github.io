@@ -22,11 +22,11 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "hkc_nus.png"
+  avatar           : "image/hkc_nus.png"
   name             : "Kaicong Huang"
   pronouns         : # example: "she/her"  
   bio              : ""
-  location         : "NY,USA"
+  location         : "NY, USA"
   employer         : "National University of Singapore"
   uri              : # URL
   email            : "e1192657@u.nus.edu" 
