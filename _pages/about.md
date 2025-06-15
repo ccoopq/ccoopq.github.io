@@ -16,7 +16,7 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1ND_
 
 ## Publications
 <div style="overflow: auto; margin-bottom: 20px;">
-  <img src="/images/hkc_nus.png" width="50px" style="float: left; margin-right: 20px;"/>
+  <img src="/images/1.jpg" width="150px" style="float: left; margin-right: 20px;"/>
 
   <strong>FBA: Foreground and Background Adversarial Image-text Person Re-identification. (Prepare for submission to AAAI 2026)</strong><br>
   <em>**Huang K**, Azfar T, Ke R</em><br>
@@ -26,7 +26,7 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1ND_
 </div>
 
 <div style="overflow: auto; margin-bottom: 20px;">
-  <img src="/images/hkc_nus.png" width="50px" style="float: left; margin-right: 20px;"/>
+  <img src="/images/3.jpg" width="150px" style="float: left; margin-right: 20px;"/>
 
   <strong>TransitReID: Transit OD Data Collection with Occlusion-Resistant Dynamic Passenger Re-Identification. (Under Review)</strong><br>
   <em>**Huang K**, Azfar T, Reilly J, et al.</em><br>
@@ -36,7 +36,7 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1ND_
 </div>
 
 <div style="overflow: auto; margin-bottom: 20px;">
-  <img src="/images/hkc_nus.png" width="50px" style="float: left; margin-right: 20px;"/>
+  <img src="/images/2.jpg" width="150px" style="float: left; margin-right: 20px;"/>
 
   <strong>Enhancing disaster resilience with uav-assisted edge computing: A reinforcement learning approach to managing heterogeneous edge devices.</strong><br>
   <em>Azfar T, **Huang K**, Ke R</em><br>
@@ -46,7 +46,7 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1ND_
 </div>
 
 <div style="overflow: auto; margin-bottom: 20px;">
-  <img src="/images/hkc_nus.png" width="50px" style="float: left; margin-right: 20px;"/>
+  <img src="/images/4.jpg" width="150px" style="float: left; margin-right: 20px;"/>
 
   <strong>Real-Time Transit O-D Data Collection via Edge-AI-based Passenger Re-Identification.</strong><br>
   <em>J. Ye, Talha. Azfar, **K. Huang**, John M. Reilly and R. Ke.</em><br>
@@ -56,7 +56,7 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1ND_
 </div>
 
 <div style="overflow: auto; margin-bottom: 20px;">
-  <img src="/images/hkc_nus.png" width="50px" style="float: left; margin-right: 20px;"/>
+  <img src="/images/5.jpg" width="150px" style="float: left; margin-right: 20px;"/>
 
   <strong>FRVO-Mono: Feature-Based Railway Visual Odometry With Monocular Camera.</strong><br>
   <em>**K. Huang**, Y. Shen, J. Chen, L. Wang, S. Wang and P. Dai</em><br>
