@@ -14,3 +14,52 @@ My research interests include computer vision, 3D scene generation, robotic perc
 
 You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1ND_MwGi5PH8nFarODMi-xIU-TPbaG0vG/view?usp=sharing).
 
+## Publications
+<div style="overflow: auto; margin-bottom: 20px;">
+  <img src="/images/hkc_nus.png" width="50px" style="float: left; margin-right: 20px;"/>
+
+  <strong>FBA: Foreground and Background Adversarial Image-text Person Re-identification. (Prepare for submission to AAAI 2026)</strong><br>
+  <em>**Huang K**, Azfar T, Ke R</em><br>
+  <em>The 40th Annual AAAI Conference on Artificial Intelligence</em><br>
+  Proposed a visual-language multi-modal person ReID algorithm based on foreground and background adversarial learning to improve ReID performance in a manner more aligned with human logic.<br>
+  <em>Paper is coming soon</em><br>
+</div>
+
+<div style="overflow: auto; margin-bottom: 20px;">
+  <img src="/images/hkc_nus.png" width="50px" style="float: left; margin-right: 20px;"/>
+
+  <strong>TransitReID: Transit OD Data Collection with Occlusion-Resistant Dynamic Passenger Re-Identification. (Under Review)</strong><br>
+  <em>**Huang K**, Azfar T, Reilly J, et al.</em><br>
+  <em>IEEE Transactions on Multimedia, 2025</em><br>
+  Proposed an attention based transit passengers dynamic ReID method to obtain the passenger O-D data.<br>
+  <a href="https://arxiv.org/abs/2504.11500">[PDF]</a>
+</div>
+
+<div style="overflow: auto; margin-bottom: 20px;">
+  <img src="/images/hkc_nus.png" width="50px" style="float: left; margin-right: 20px;"/>
+
+  <strong>Enhancing disaster resilience with uav-assisted edge computing: A reinforcement learning approach to managing heterogeneous edge devices.</strong><br>
+  <em>Azfar T, **Huang K**, Ke R</em><br>
+  <em>Journal on Autonomous Transportation Systems, 2025</em><br>
+  The paper uses UAVs and reinforcement learning to efficiently manage and prioritize edge device maintenance and data delivery, enhancing network resilience in disaster scenarios.<br>
+  <a href="https://dl.acm.org/doi/pdf/10.1145/3736643">[PDF]</a>
+</div>
+
+<div style="overflow: auto; margin-bottom: 20px;">
+  <img src="/images/hkc_nus.png" width="50px" style="float: left; margin-right: 20px;"/>
+
+  <strong>Real-Time Transit O-D Data Collection via Edge-AI-based Passenger Re-Identification.</strong><br>
+  <em>J. Ye, Talha. Azfar, **K. Huang**, John M. Reilly and R. Ke.</em><br>
+  <em>International Conference on Transportation and Development 2025</em><br>
+  Proposed a real-time passenger OD data collection framework with ReID algorithm on edge device.<br>
+</div>
+
+<div style="overflow: auto; margin-bottom: 20px;">
+  <img src="/images/hkc_nus.png" width="50px" style="float: left; margin-right: 20px;"/>
+
+  <strong>FRVO-Mono: Feature-Based Railway Visual Odometry With Monocular Camera.</strong><br>
+  <em>**K. Huang**, Y. Shen, J. Chen, L. Wang, S. Wang and P. Dai</em><br>
+  <em>IEEE Transactions on Instrumentation and Measurement, 2023</em><br>
+  Proposed a monocular visual odometry method for railway localization, FRVO-Mono, which exploits different features in railway environments, such as vanishing points, track lines, and railway poles to provide multi-dimensional geometric constraints for train location estimation.<br>
+  <a href="https://ieeexplore.ieee.org/abstract/document/10290961">[PDF]</a>
+</div>
