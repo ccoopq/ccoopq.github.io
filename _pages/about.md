@@ -56,7 +56,7 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1ND_
 </div>
 
 <div style="overflow: auto; margin-bottom: 20px;">
-  <img src="/images/5.jpg" width="150px" style="float: left; margin-right: 20px;"/>
+  <img src="/images/5.png" width="150px" style="float: left; margin-right: 20px;"/>
 
   <strong>FRVO-Mono: Feature-Based Railway Visual Odometry With Monocular Camera.</strong><br>
   <em>**K. Huang**, Y. Shen, J. Chen, L. Wang, S. Wang and P. Dai</em><br>
