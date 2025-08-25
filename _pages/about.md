@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year Ph.D. student at the School of Engineering, Rensselaer Polytechnic Institute. I received my M.Sc. in Robotics from the National University of Singapore in 2024, and my B.Eng. in Electronic Engineering from Sun Yat-sen University in 2023.
+I am a second-year Ph.D. student at the School of Engineering, Rensselaer Polytechnic Institute. I received my M.Sc. in Robotics from the National University of Singapore in 2024, and my B.Eng. in Electronic Engineering from Sun Yat-sen University in 2023.
 
 My research interests include Computer Vision, 3D Scene Generation, Robotic Perception, SLAM, and Autonomous Driving.
 
