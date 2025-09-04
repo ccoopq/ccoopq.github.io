@@ -52,7 +52,7 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1HPx
   <em>J. Ye, Talha. Azfar, **K. Huang**, John M. Reilly and R. Ke.</em><br>
   <em>International Conference on Transportation and Development 2025</em><br>
   Proposed a real-time passenger OD data collection framework with ReID algorithm on edge device.<br>
-  <em>Paper is coming soon</em><br>
+  <a href="https://ictd-pavements2025.eventscribe.net/fsPopup.asp?PresentationID=1559781&mode=presInfo">[Link]</a>
 </div>
 
 <div style="overflow: auto; margin-bottom: 20px;">
