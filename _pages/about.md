@@ -22,7 +22,7 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1HPx
   <em>**Huang K**, Azfar T, Reilly J, Guggisberg T, Ke R</em><br>
   <em>The 40th Annual AAAI Conference on Artificial Intelligence</em><br>
   Proposed a visual-language multi-modal person ReID algorithm based on foreground and background adversarial learning to improve ReID performance in a manner more aligned with human logic.<br>
-  <em>Paper is coming soon</em><br>
+  <a href="https://arxiv.org/abs/2509.03032">[PDF]</a>
 </div>
 
 <div style="overflow: auto; margin-bottom: 20px;">
