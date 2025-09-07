@@ -18,6 +18,16 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1gXO
 <div style="overflow: auto; margin-bottom: 20px;">
   <img src="/images/1.jpg" width="150px" style="float: left; margin-right: 20px;"/>
 
+  <strong>Real2Sim: A Physics‑driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes. (Under Review)</strong><br>
+  <em>**Huang K**, Azfar T, Ke R</em><br>
+  <em>Transportation Research Board 2026</em><br>
+  Proposed Real2Sim, a simulation framework for autonomous driving based on Gaussian Splatting that delivers high-fidelity scene generation and supports arbitrary physics-aware in-scene editing, facilitating the creation of corner cases and large-scale synthetic datasets.<br>
+  (Paper is coming soon)
+</div>
+
+<div style="overflow: auto; margin-bottom: 20px;">
+  <img src="/images/1.jpg" width="150px" style="float: left; margin-right: 20px;"/>
+
   <strong>Background Matters Too: A Language-Enhanced Adversarial Framework for Person Re-Identification. (Under Review)</strong><br>
   <em>**Huang K**, Azfar T, Reilly J, Guggisberg T, Ke R</em><br>
   <em>The 40th Annual AAAI Conference on Artificial Intelligence</em><br>
