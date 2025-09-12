@@ -75,11 +75,14 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1gXO
   <a href="https://ieeexplore.ieee.org/abstract/document/10290961">[PDF]</a>
 </div>
 
-<div style="width:300px; height:300px; overflow:hidden;">
-  <div style="transform:scale(0.6); transform-origin: top left;">
-    <script type="text/javascript" id="mmvst_globe" 
-      src="//mapmyvisitors.com/globe.js?d=D92tltWulL8gT1_pUfsFWQgK49uwXmwalruSJhP9ElI">
-    </script>
+<div style="width:100%; display:flex; justify-content:center; align-items:center;">
+  <div style="width:350px; height:350px; overflow:hidden;">
+    <div style="transform:scale(0.6); transform-origin: top left;">
+      <script type="text/javascript" id="mmvst_globe" 
+        src="//mapmyvisitors.com/globe.js?d=D92tltWulL8gT1_pUfsFWQgK49uwXmwalruSJhP9ElI">
+      </script>
+    </div>
   </div>
 </div>
+
 
