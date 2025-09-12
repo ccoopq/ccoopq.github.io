@@ -74,3 +74,5 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1gXO
   Proposed a monocular visual odometry method for railway localization, FRVO-Mono, which exploits different features in railway environments, such as vanishing points, track lines, and railway poles to provide multi-dimensional geometric constraints for train location estimation.<br>
   <a href="https://ieeexplore.ieee.org/abstract/document/10290961">[PDF]</a>
 </div>
+
+<script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=D92tltWulL8gT1_pUfsFWQgK49uwXmwalruSJhP9ElI"></script>
