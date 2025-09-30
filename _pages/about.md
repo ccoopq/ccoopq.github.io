@@ -30,7 +30,7 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1wME
   <strong>Background Matters Too: A Language-Enhanced Adversarial Framework for Person Re-Identification. (Under Review)</strong><br>
   <em>**Huang K**, Azfar T, Reilly J, Guggisberg T, Ke R</em><br>
   Propose a visual-language multi-modal person ReID algorithm based on foreground and background adversarial learning to improve ReID performance in a manner more aligned with human logic.<br>
-  <a href="https://arxiv.org/abs/2509.03032">[PDF]</a>
+  <a href="https://arxiv.org/abs/2509.03032">[ArXiv]</a>
 </div>
 
 <div style="overflow: auto; margin-bottom: 20px;">
@@ -39,7 +39,7 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1wME
   <strong>TransitReID: Transit OD Data Collection with Occlusion-Resistant Dynamic Passenger Re-Identification. (Under Review)</strong><br>
   <em>**Huang K**, Azfar T, Reilly J, et al.</em><br>
   Propose an attention based transit passengers dynamic ReID method to obtain the passenger O-D data.<br>
-  <a href="https://arxiv.org/abs/2504.11500">[PDF]</a>
+  <a href="https://arxiv.org/abs/2504.11500">[ArXiv]</a>
 </div>
 
 <div style="overflow: auto; margin-bottom: 20px;">
