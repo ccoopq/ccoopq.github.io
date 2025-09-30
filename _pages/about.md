@@ -12,7 +12,7 @@ I am a second-year Ph.D. student at the School of Engineering, Rensselaer Polyte
 My research interests include Computer Vision, 3D Scene Generation, Robotic Perception, SLAM, and Autonomous Driving.
 
 
-You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1gXO0jIg54F7J9ZIKo97Ujxjv7fHnd1Ws/view?usp=sharing).
+You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1wME-W_S5sGkfuIj7XL9qK69baRLbWlPA/view?usp=sharing).
 
 ## Publications
 <div style="overflow: auto; margin-bottom: 20px;">
@@ -20,7 +20,6 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1gXO
 
   <strong>Real2Sim: A Physics‑driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes. (Under Review)</strong><br>
   <em>**Huang K**, Azfar T, Ke R</em><br>
-  <em>Transportation Research Board 2026</em><br>
   Proposed Real2Sim, a simulation framework for autonomous driving based on Gaussian Splatting that delivers high-fidelity scene generation and supports arbitrary physics-aware in-scene editing, facilitating the creation of corner cases and large-scale synthetic datasets.<br>
   (Paper is coming soon)
 </div>
@@ -30,7 +29,6 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1gXO
 
   <strong>Background Matters Too: A Language-Enhanced Adversarial Framework for Person Re-Identification. (Under Review)</strong><br>
   <em>**Huang K**, Azfar T, Reilly J, Guggisberg T, Ke R</em><br>
-  <em>The 40th Annual AAAI Conference on Artificial Intelligence</em><br>
   Proposed a visual-language multi-modal person ReID algorithm based on foreground and background adversarial learning to improve ReID performance in a manner more aligned with human logic.<br>
   <a href="https://arxiv.org/abs/2509.03032">[PDF]</a>
 </div>
@@ -40,9 +38,17 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1gXO
 
   <strong>TransitReID: Transit OD Data Collection with Occlusion-Resistant Dynamic Passenger Re-Identification. (Under Review)</strong><br>
   <em>**Huang K**, Azfar T, Reilly J, et al.</em><br>
-  <em>IEEE Transactions on Multimedia, 2025</em><br>
   Proposed an attention based transit passengers dynamic ReID method to obtain the passenger O-D data.<br>
   <a href="https://arxiv.org/abs/2504.11500">[PDF]</a>
+</div>
+
+<div style="overflow: auto; margin-bottom: 20px;">
+  <img src="/images/6.png" width="260px" style="float: left; margin-right: 20px;"/>
+
+  <strong>Real2Sim: A Physics‑driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes. (Under Review)</strong><br>
+  <em>**Huang K**, Azfar T, Ke R</em><br>
+  Proposed Real2Sim, a simulation framework for autonomous driving based on Gaussian Splatting that delivers high-fidelity scene generation and supports arbitrary physics-aware in-scene editing, facilitating the creation of corner cases and large-scale synthetic datasets.<br>
+  (Paper is coming soon)
 </div>
 
 <div style="overflow: auto; margin-bottom: 20px;">
