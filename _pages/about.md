@@ -16,10 +16,21 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1wME
 
 ## Publications
 <div style="overflow: auto; margin-bottom: 20px;">
+  <img src="/images/7.png" width="260px" style="float: left; margin-right: 20px;"/>
+
+  <strong>Onboard Decisions and Cloud-Scale LLM Planning: Split Reasoning and Collaborative Intelligence for Autonomous Driving</strong><br>
+  <em>Ma M*, Li S*, **Huang K***, Azfar T, Wang N, Ke R</em><br> (* co-first author)
+  <em>ACM/IEEE Symposium on Edge Computing, 2025</em><br>
+  Propose a hybrid edge–cloud framework for language-based autonomous driving planning that balances onboard efficiency and cloud intelligence, enabling real-time, reliable perception and decision-making under limited computational resources and network latency constraints.<br>
+  (Paper is coming soon)
+</div>
+
+<div style="overflow: auto; margin-bottom: 20px;">
   <img src="/images/6.png" width="260px" style="float: left; margin-right: 20px;"/>
 
-  <strong>Real2Sim: A Physics‑driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes. (Under Review)</strong><br>
+  <strong>Real2Sim: A Physics‑driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes.</strong><br>
   <em>**Huang K**, Azfar T, Ke R</em><br>
+  <em>TRB2026</em><br>
   Propose Real2Sim, a simulation framework for autonomous driving based on Gaussian Splatting that delivers high-fidelity scene generation and supports arbitrary physics-aware in-scene editing, facilitating the creation of corner cases and large-scale synthetic datasets.<br>
   (Paper is coming soon)
 </div>
