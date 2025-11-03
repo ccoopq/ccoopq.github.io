@@ -12,7 +12,7 @@ I am a second-year Ph.D. student at the School of Engineering, Rensselaer Polyte
 My research interests include Computer Vision, 3D Scene Generation, Robotic Perception, SLAM, and Autonomous Driving.
 
 
-You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1wME-W_S5sGkfuIj7XL9qK69baRLbWlPA/view?usp=sharing).
+You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1EM6lO9npU9-nVDFO_hzL74N7cBK7fFUu/view?usp=sharing).
 
 ## Publications
 <div style="overflow: auto; margin-bottom: 20px;">
