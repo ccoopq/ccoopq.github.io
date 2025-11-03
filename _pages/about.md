@@ -19,7 +19,7 @@ You can find my CV here: [Curriculum Vitae](https://drive.google.com/file/d/1EM6
   <img src="/images/7.png" width="260px" style="float: left; margin-right: 20px;"/>
 
   <strong>Onboard Decisions and Cloud-Scale LLM Planning: Split Reasoning and Collaborative Intelligence for Autonomous Driving</strong><br>
-  <em>Ma M*, Li S*, **Huang K***, Azfar T, Wang N, Ke R</em><br> (* co-first author)
+  <em>Ma M*, Li S*, Huang K*, Azfar T, Wang N, Ke R</em><br> (* co-first author)
   <em>ACM/IEEE Symposium on Edge Computing, 2025</em><br>
   Propose a hybrid edge–cloud framework for language-based autonomous driving planning that balances onboard efficiency and cloud intelligence, enabling real-time, reliable perception and decision-making under limited computational resources and network latency constraints.<br>
   (Paper is coming soon)
