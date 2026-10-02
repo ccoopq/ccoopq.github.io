@@ -13,23 +13,53 @@ My research interests include Computer Vision, 3D Scene Generation, Robotic Perc
 
 ## Publications
 <div style="overflow: auto; margin-bottom: 20px;">
-  <img src="/images/7.png" width="260px" style="float: left; margin-right: 20px;"/>
+  <img src="/images/carla_gs.png" width="260px" style="float: left; margin-right: 20px;"/>
 
-  <strong>Onboard Decisions and Cloud-Scale LLM Planning: Split Reasoning and Collaborative Intelligence for Autonomous Driving</strong><br>
-  <em>Ma M*, Li S*, <b>Huang K*</b>, Azfar T, Wang N, Ke R</em> (* co-first author)<br>
-  <em>ACM/IEEE Symposium on Edge Computing, 2025</em><br>
-  Propose a hybrid edge–cloud framework for language-based autonomous driving planning that balances onboard efficiency and cloud intelligence, enabling real-time, reliable perception and decision-making under limited computational resources and network latency constraints.<br>
-  (Paper is coming soon)
+  <strong>CARLA-GS: Decoupling Representation, Reasoning, and Physics Simulation for Autonomous Driving Corner-Case Synthesis</strong><br>
+  <em><b>Huang K</b>, Ma M, Ke R</em><br>
+  <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</em><br>
+  Propose CARLA-GS, which decouples visual representation, semantic reasoning, and physics-based execution: Gaussian Splatting reconstructs editable driving scenes, an LLM-based planner identifies risky interactions and generates adversarial trajectories, and CARLA ensures physically feasible vehicle motion for photorealistic corner-case synthesis.<br>
+  <a href="https://arxiv.org/abs/2607.07601">[ArXiv]</a> <a href="https://github.com/ccoopq/CARLA-GS">[Code]</a> <a href="https://ccoopq.github.io/CARLA-GS/">[Project Page]</a>
 </div>
 
 <div style="overflow: auto; margin-bottom: 20px;">
   <img src="/images/6.png" width="260px" style="float: left; margin-right: 20px;"/>
 
-  <strong>Real2Sim: A Physics‑driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes.</strong><br>
-  <em><b>Huang K</b>, Azfar T, Ke R</em><br>
-  <em>TRB2026</em><br>
+  <strong>Real2Sim: A Physics-Driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes</strong><br>
+  <em><b>Huang K</b>, Azfar T, Shi W, Ke R</em><br>
+  <em>IEEE International Conference on Intelligent Transportation Systems (ITSC), 2026</em><br>
   Propose Real2Sim, a simulation framework for autonomous driving based on Gaussian Splatting that delivers high-fidelity scene generation and supports arbitrary physics-aware in-scene editing, facilitating the creation of corner cases and large-scale synthetic datasets.<br>
-  (Paper is coming soon)
+  <a href="https://arxiv.org/abs/2605.13591">[ArXiv]</a>
+</div>
+
+<div style="overflow: auto; margin-bottom: 20px;">
+  <img src="/images/ipay.png" width="260px" style="float: left; margin-right: 20px;"/>
+
+  <strong>iPay: Integrated Payment Action Recognition via Multimodal Networks and Adaptive Spatial Prior Learning</strong><br>
+  <em><b>Huang K</b>, Oh W, Guggisberg T, Ke R</em><br>
+  <em>IEEE International Conference on Intelligent Transportation Systems (ITSC), 2026</em><br>
+  Propose iPay, an RGB–skeleton multimodal mixture-of-experts network with adaptive spatial prior learning for recognizing fine-grained passenger payment actions from noisy onboard surveillance video.<br>
+  <a href="https://arxiv.org/abs/2605.10732">[ArXiv]</a> <a href="https://github.com/ccoopq/iPay">[Code]</a>
+</div>
+
+<div style="overflow: auto; margin-bottom: 20px;">
+  <img src="/images/ghr_vlm.png" width="260px" style="float: left; margin-right: 20px;"/>
+
+  <strong>GHR-VLM: Making Zero-Shot Transit Video Analytics Realizable with Grounded Hybrid Reasoning</strong><br>
+  <em><b>Huang K</b>, Oh W, Reilly J, Guggisberg T, Ke R</em><br>
+  <em>IEEE/ACM Symposium on Edge Computing (SEC), 2026</em><br>
+  Propose GHR-VLM, an edge–cloud pipeline that converts long bus videos into passenger-centered evidence for selective VLM reasoning, enabling zero-shot payment and fare-evasion analysis.<br>
+  <a href="https://arxiv.org/abs/2607.13569">[ArXiv]</a>
+</div>
+
+<div style="overflow: auto; margin-bottom: 20px;">
+  <img src="/images/7.png" width="260px" style="float: left; margin-right: 20px;"/>
+
+  <strong>Onboard Decisions and Cloud-Scale LLM Planning: Split Reasoning and Collaborative Intelligence for Autonomous Driving</strong><br>
+  <em>Ma M*, Li S*, <b>Huang K*</b>, Azfar T, Wang N, Ke R</em> (* co-first author)<br>
+  <em>ACM/IEEE Symposium on Edge Computing (SEC), 2025</em><br>
+  Propose a hybrid edge–cloud framework for language-based autonomous driving planning that balances onboard efficiency and cloud intelligence, enabling real-time, reliable perception and decision-making under limited computational resources and network latency constraints.<br>
+  <a href="https://dl.acm.org/doi/10.1145/3769102.3774637">[Paper]</a>
 </div>
 
 <div style="overflow: auto; margin-bottom: 20px;">
@@ -89,7 +119,6 @@ My research interests include Computer Vision, 3D Scene Generation, Robotic Perc
   Propose a monocular visual odometry method for railway localization, FRVO-Mono, which exploits different features in railway environments, such as vanishing points, track lines, and railway poles to provide multi-dimensional geometric constraints for train location estimation.<br>
   <a href="https://ieeexplore.ieee.org/abstract/document/10290961">[Paper]</a>
 </div>
-
 
 
 <div style="width:100%; display:flex; justify-content:center; align-items:center;">
