@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About Me"
-author_profile: trueAdd commentMore actions
+author_profile: true
 redirect_from: 
   - /about/
   - /about.html
@@ -16,7 +16,7 @@ My research interests include Computer Vision, 3D Scene Generation, Robotic Perc
   <img src="/images/7.png" width="260px" style="float: left; margin-right: 20px;"/>
 
   <strong>Onboard Decisions and Cloud-Scale LLM Planning: Split Reasoning and Collaborative Intelligence for Autonomous Driving</strong><br>
-  <em>Ma M*, Li S*, Huang K*, Azfar T, Wang N, Ke R</em><br> (* co-first author)
+  <em>Ma M*, Li S*, <b>Huang K*</b>, Azfar T, Wang N, Ke R</em> (* co-first author)<br>
   <em>ACM/IEEE Symposium on Edge Computing, 2025</em><br>
   Propose a hybrid edge–cloud framework for language-based autonomous driving planning that balances onboard efficiency and cloud intelligence, enabling real-time, reliable perception and decision-making under limited computational resources and network latency constraints.<br>
   (Paper is coming soon)
@@ -26,7 +26,7 @@ My research interests include Computer Vision, 3D Scene Generation, Robotic Perc
   <img src="/images/6.png" width="260px" style="float: left; margin-right: 20px;"/>
 
   <strong>Real2Sim: A Physics‑driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes.</strong><br>
-  <em>**Huang K**, Azfar T, Ke R</em><br>
+  <em><b>Huang K</b>, Azfar T, Ke R</em><br>
   <em>TRB2026</em><br>
   Propose Real2Sim, a simulation framework for autonomous driving based on Gaussian Splatting that delivers high-fidelity scene generation and supports arbitrary physics-aware in-scene editing, facilitating the creation of corner cases and large-scale synthetic datasets.<br>
   (Paper is coming soon)
@@ -36,7 +36,7 @@ My research interests include Computer Vision, 3D Scene Generation, Robotic Perc
   <img src="/images/1.jpg" width="260px" style="float: left; margin-right: 20px;"/>
 
   <strong>Background Matters Too: A Language-Enhanced Adversarial Framework for Person Re-Identification. (Under Review)</strong><br>
-  <em>**Huang K**, Azfar T, Reilly J, Guggisberg T, Ke R</em><br>
+  <em><b>Huang K</b>, Azfar T, Reilly J, Guggisberg T, Ke R</em><br>
   Propose a visual-language multi-modal person ReID algorithm based on foreground and background adversarial learning to improve ReID performance in a manner more aligned with human logic.<br>
   <a href="https://arxiv.org/abs/2509.03032">[ArXiv]</a>
 </div>
@@ -45,7 +45,7 @@ My research interests include Computer Vision, 3D Scene Generation, Robotic Perc
   <img src="/images/3.jpg" width="260px" style="float: left; margin-right: 20px;"/>
 
   <strong>TransitReID: Transit OD Data Collection with Occlusion-Resistant Dynamic Passenger Re-Identification. (Under Review)</strong><br>
-  <em>**Huang K**, Azfar T, Reilly J, et al.</em><br>
+  <em><b>Huang K</b>, Azfar T, Reilly J, et al.</em><br>
   Propose an attention based transit passengers dynamic ReID method to obtain the passenger O-D data.<br>
   <a href="https://arxiv.org/abs/2504.11500">[ArXiv]</a>
 </div>
@@ -54,7 +54,7 @@ My research interests include Computer Vision, 3D Scene Generation, Robotic Perc
   <img src="/images/cosimulation.png" width="230px" style="float: left; margin-right: 20px;"/>
 
   <strong>Traffic co-simulation framework empowered by infrastructure camera sensing and reinforcement learning</strong><br>
-  <em>Talha Azfar, **Kaicong Huang**, Andrew Tracy, Sandra Misiewicz, Chenxi Liu,and Ruimin Ke</em><br>
+  <em>Talha Azfar, <b>Kaicong Huang</b>, Andrew Tracy, Sandra Misiewicz, Chenxi Liu,and Ruimin Ke</em><br>
   <em>Journal of Intelligent Transportation Systems, 2025</em><br>
   Propose a co-simulation framework combining CARLA and SUMO, where infrastructure-mounted cameras detect vehicles via computer vision and feed that information into a multi-agent reinforcement learning system to adaptively optimize traffic signal control under realistic sensing constraints.<br>
   <a href="https://www.tandfonline.com/doi/abs/10.1080/15472450.2025.2559410">[Paper]</a>
@@ -64,7 +64,7 @@ My research interests include Computer Vision, 3D Scene Generation, Robotic Perc
   <img src="/images/2.jpg" width="260px" style="float: left; margin-right: 20px;"/>
 
   <strong>Enhancing disaster resilience with uav-assisted edge computing: A reinforcement learning approach to managing heterogeneous edge devices.</strong><br>
-  <em>Azfar T, **Huang K**, Ke R</em><br>
+  <em>Azfar T, <b>Huang K</b>, Ke R</em><br>
   <em>Journal on Autonomous Transportation Systems, 2025</em><br>
   The paper uses UAVs and reinforcement learning to efficiently manage and prioritize edge device maintenance and data delivery, enhancing network resilience in disaster scenarios.<br>
   <a href="https://dl.acm.org/doi/pdf/10.1145/3736643">[Paper]</a>
@@ -74,7 +74,7 @@ My research interests include Computer Vision, 3D Scene Generation, Robotic Perc
   <img src="/images/4.jpg" width="260px" style="float: left; margin-right: 20px;"/>
 
   <strong>Real-Time Transit O-D Data Collection via Edge-AI-based Passenger Re-Identification.</strong><br>
-  <em>J. Ye, Talha. Azfar, **K. Huang**, John M. Reilly and R. Ke.</em><br>
+  <em>J. Ye, Talha. Azfar, <b>K. Huang</b>, John M. Reilly and R. Ke.</em><br>
   <em>International Conference on Transportation and Development 2025</em><br>
   Propose a real-time passenger OD data collection framework with ReID algorithm on edge device.<br>
   <a href="https://ictd-pavements2025.eventscribe.net/fsPopup.asp?PresentationID=1559781&mode=presInfo">[Link]</a>
@@ -84,7 +84,7 @@ My research interests include Computer Vision, 3D Scene Generation, Robotic Perc
   <img src="/images/5.png" width="260px" style="float: left; margin-right: 20px;"/>
 
   <strong>FRVO-Mono: Feature-Based Railway Visual Odometry With Monocular Camera.</strong><br>
-  <em>**K. Huang**, Y. Shen, J. Chen, L. Wang, S. Wang and P. Dai</em><br>
+  <em><b>K. Huang</b>, Y. Shen, J. Chen, L. Wang, S. Wang and P. Dai</em><br>
   <em>IEEE Transactions on Instrumentation and Measurement, 2023</em><br>
   Propose a monocular visual odometry method for railway localization, FRVO-Mono, which exploits different features in railway environments, such as vanishing points, track lines, and railway poles to provide multi-dimensional geometric constraints for train location estimation.<br>
   <a href="https://ieeexplore.ieee.org/abstract/document/10290961">[Paper]</a>
