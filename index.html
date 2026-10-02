@@ -191,7 +191,6 @@ h2 { font-size: clamp(1.5rem, 3vw, 1.85rem); font-weight: 700; letter-spacing: -
 .pub figure img { width: 100%; height: 100%; object-fit: contain; }
 .pub-body { display: flex; flex-direction: column; gap: 8px; padding: 18px 20px 20px; flex: 1; min-width: 0; }
 .pub-meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-.role-tag { font: 400 .74rem/1.4 var(--font-mono); color: var(--muted); }
 .pub h3 { font-size: 1.12rem; line-height: 1.3; font-weight: 700; letter-spacing: -.005em; }
 .authors { margin: 0; font-size: .9rem; color: var(--muted); }
 .authors b { color: var(--ink); font-weight: 600; }
@@ -305,7 +304,6 @@ footer p { margin: 0; font-size: .85rem; color: var(--muted); }
       <li><time datetime="2026">2026</time><p><strong>GHR-VLM</strong> is accepted to <span class="venue-tag">SEC 2026</span></p></li>
       <li><time datetime="2026">2026</time><p><strong>Real2Sim</strong> and <strong>iPay</strong> are accepted to <span class="venue-tag">ITSC 2026</span></p></li>
       <li><time datetime="2025">2025</time><p><strong>Onboard Decisions and Cloud-Scale LLM Planning</strong> is published at <span class="venue-tag">SEC 2025</span></p></li>
-      <li><time datetime="2025">2025</time><p>Our traffic co-simulation framework is published in the <em>Journal of Intelligent Transportation Systems</em></p></li>
       <li><time datetime="2024-08">2024.08</time><p>Started my Ph.D. at Rensselaer Polytechnic Institute</p></li>
     </ul>
   </section>
@@ -317,7 +315,7 @@ footer p { margin: 0; font-size: .85rem; color: var(--muted); }
       <article class="pub featured">
         <figure><img src="images/pubs/carla-gs.jpg" alt="CARLA-GS framework: Gaussian Splatting scene, LLM corner-case agents, and CARLA simulation" loading="lazy"></figure>
         <div class="pub-body">
-          <div class="pub-meta"><span class="venue-tag">IROS 2026</span><span class="role-tag">First author</span></div>
+          <div class="pub-meta"><span class="venue-tag">IROS 2026</span></div>
           <h3>CARLA-GS: Decoupling Representation, Reasoning, and Physics Simulation for Autonomous Driving Corner-Case Synthesis</h3>
           <p class="authors"><b>Huang K</b>, Ma M, Ke R</p>
           <p class="desc">Gaussian Splatting reconstructs editable driving scenes, an LLM-based planner identifies risky interactions and generates adversarial trajectories, and CARLA ensures physically feasible vehicle motion for photorealistic corner-case synthesis.</p>
@@ -332,7 +330,7 @@ footer p { margin: 0; font-size: .85rem; color: var(--muted); }
       <article class="pub">
         <figure><img src="images/pubs/real2sim.jpg" alt="Real2Sim framework overview" loading="lazy"></figure>
         <div class="pub-body">
-          <div class="pub-meta"><span class="venue-tag">ITSC 2026</span><span class="role-tag">First author</span></div>
+          <div class="pub-meta"><span class="venue-tag">ITSC 2026</span></div>
           <h3>Real2Sim: A Physics-Driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes</h3>
           <p class="authors"><b>Huang K</b>, Azfar T, Shi W, Ke R</p>
           <p class="desc">A Gaussian Splatting simulation framework that delivers high-fidelity scene generation and physics-aware in-scene editing, enabling corner cases and large-scale synthetic datasets.</p>
@@ -345,7 +343,7 @@ footer p { margin: 0; font-size: .85rem; color: var(--muted); }
       <article class="pub">
         <figure><img src="images/pubs/ipay.jpg" alt="iPay multimodal network overview" loading="lazy"></figure>
         <div class="pub-body">
-          <div class="pub-meta"><span class="venue-tag">ITSC 2026</span><span class="role-tag">First author</span></div>
+          <div class="pub-meta"><span class="venue-tag">ITSC 2026</span></div>
           <h3>iPay: Integrated Payment Action Recognition via Multimodal Networks and Adaptive Spatial Prior Learning</h3>
           <p class="authors"><b>Huang K</b>, Oh W, Guggisberg T, Ke R</p>
           <p class="desc">An RGB–skeleton multimodal mixture-of-experts network with adaptive spatial prior learning for recognizing fine-grained passenger payment actions from noisy onboard surveillance video.</p>
@@ -359,7 +357,7 @@ footer p { margin: 0; font-size: .85rem; color: var(--muted); }
       <article class="pub">
         <figure><img src="images/pubs/ghr-vlm.jpg" alt="GHR-VLM edge-cloud pipeline overview" loading="lazy"></figure>
         <div class="pub-body">
-          <div class="pub-meta"><span class="venue-tag">SEC 2026</span><span class="role-tag">First author</span></div>
+          <div class="pub-meta"><span class="venue-tag">SEC 2026</span></div>
           <h3>GHR-VLM: Making Zero-Shot Transit Video Analytics Realizable with Grounded Hybrid Reasoning</h3>
           <p class="authors"><b>Huang K</b>, Oh W, Reilly J, Guggisberg T, Ke R</p>
           <p class="desc">An edge–cloud pipeline that converts long bus videos into passenger-centered evidence for selective VLM reasoning, enabling zero-shot payment and fare-evasion analysis.</p>
@@ -372,7 +370,7 @@ footer p { margin: 0; font-size: .85rem; color: var(--muted); }
       <article class="pub">
         <figure><img src="images/pubs/onboard.jpg" alt="Hybrid edge-cloud planning framework overview" loading="lazy"></figure>
         <div class="pub-body">
-          <div class="pub-meta"><span class="venue-tag">SEC 2025</span><span class="role-tag">Co-first author</span></div>
+          <div class="pub-meta"><span class="venue-tag">SEC 2025</span></div>
           <h3>Onboard Decisions and Cloud-Scale LLM Planning: Split Reasoning and Collaborative Intelligence for Autonomous Driving</h3>
           <p class="authors">Ma M*, Li S*, <b>Huang K*</b>, Azfar T, Wang N, Ke R <span>(* co-first author)</span></p>
           <p class="desc">A hybrid edge–cloud framework for language-based driving planning that balances onboard efficiency and cloud intelligence under limited compute and network latency.</p>
@@ -385,7 +383,7 @@ footer p { margin: 0; font-size: .85rem; color: var(--muted); }
       <article class="pub">
         <figure><img src="images/pubs/bmt.jpg" alt="Background Matters Too framework overview" loading="lazy"></figure>
         <div class="pub-body">
-          <div class="pub-meta"><span class="venue-tag">arXiv 2025</span><span class="role-tag">First author</span></div>
+          <div class="pub-meta"><span class="venue-tag">arXiv 2025</span></div>
           <h3>Background Matters Too: A Language-Enhanced Adversarial Framework for Person Re-Identification</h3>
           <p class="authors"><b>Huang K</b>, Azfar T, Reilly J, Guggisberg T, Ke R</p>
           <p class="desc">A vision-language person ReID method based on foreground and background adversarial learning, improving ReID in a manner more aligned with human logic.</p>
@@ -398,7 +396,7 @@ footer p { margin: 0; font-size: .85rem; color: var(--muted); }
       <article class="pub">
         <figure><img src="images/pubs/transitreid.jpg" alt="TransitReID method overview" loading="lazy"></figure>
         <div class="pub-body">
-          <div class="pub-meta"><span class="venue-tag">arXiv 2025</span><span class="role-tag">First author</span></div>
+          <div class="pub-meta"><span class="venue-tag">arXiv 2025</span></div>
           <h3>TransitReID: Transit OD Data Collection with Occlusion-Resistant Dynamic Passenger Re-Identification</h3>
           <p class="authors"><b>Huang K</b>, Azfar T, Reilly J, et al.</p>
           <p class="desc">An attention-based dynamic passenger ReID method for collecting transit origin–destination data.</p>
@@ -450,7 +448,7 @@ footer p { margin: 0; font-size: .85rem; color: var(--muted); }
       <article class="pub">
         <figure><img src="images/pubs/frvo.jpg" alt="FRVO-Mono railway visual odometry" loading="lazy"></figure>
         <div class="pub-body">
-          <div class="pub-meta"><span class="venue-tag">IEEE TIM 2023</span><span class="role-tag">First author</span></div>
+          <div class="pub-meta"><span class="venue-tag">IEEE TIM 2023</span></div>
           <h3>FRVO-Mono: Feature-Based Railway Visual Odometry With Monocular Camera</h3>
           <p class="authors"><b>Huang K</b>, Shen Y, Chen J, Wang L, Wang S, Dai P</p>
           <p class="desc">Monocular visual odometry for railway localization that uses vanishing points, track lines, and railway poles as multi-dimensional geometric constraints.</p>
