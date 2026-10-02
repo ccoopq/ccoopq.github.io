@@ -65,7 +65,7 @@ My research interests include Computer Vision, 3D Scene Generation, Robotic Perc
 <div style="overflow: auto; margin-bottom: 20px;">
   <img src="/images/1.jpg" width="260px" style="float: left; margin-right: 20px;"/>
 
-  <strong>Background Matters Too: A Language-Enhanced Adversarial Framework for Person Re-Identification. (Under Review)</strong><br>
+  <strong>Background Matters Too: A Language-Enhanced Adversarial Framework for Person Re-Identification.</strong><br>
   <em><b>Huang K</b>, Azfar T, Reilly J, Guggisberg T, Ke R</em><br>
   Propose a visual-language multi-modal person ReID algorithm based on foreground and background adversarial learning to improve ReID performance in a manner more aligned with human logic.<br>
   <a href="https://arxiv.org/abs/2509.03032">[ArXiv]</a>
@@ -74,7 +74,7 @@ My research interests include Computer Vision, 3D Scene Generation, Robotic Perc
 <div style="overflow: auto; margin-bottom: 20px;">
   <img src="/images/3.jpg" width="260px" style="float: left; margin-right: 20px;"/>
 
-  <strong>TransitReID: Transit OD Data Collection with Occlusion-Resistant Dynamic Passenger Re-Identification. (Under Review)</strong><br>
+  <strong>TransitReID: Transit OD Data Collection with Occlusion-Resistant Dynamic Passenger Re-Identification.</strong><br>
   <em><b>Huang K</b>, Azfar T, Reilly J, et al.</em><br>
   Propose an attention based transit passengers dynamic ReID method to obtain the passenger O-D data.<br>
   <a href="https://arxiv.org/abs/2504.11500">[ArXiv]</a>
