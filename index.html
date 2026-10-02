@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kaicong Huang</title>
+<meta name="description" content="Kaicong Huang, Ph.D. student at Rensselaer Polytechnic Institute working on computer vision, 3D scene generation, robotic perception, navigation, and autonomous driving.">
+<meta name="author" content="Kaicong Huang">
+<meta property="og:title" content="Kaicong Huang">
+<meta property="og:description" content="Ph.D. student at Rensselaer Polytechnic Institute · Computer Vision · Autonomous Driving · Robotics">
+<meta property="og:image" content="https://ccoopq.github.io/images/avatar.jpg">
+<meta property="og:url" content="https://ccoopq.github.io/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+/* Layout: dark "asphalt" hero band with a dashed lane line, then a single 1040px column: About, News, and a two-column card grid of publications (first card featured full-width). */
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --ink: #15202a;
+  --muted: #586674;
+  --line: #dce2e8;
+  --accent: #1e5c96;
+  --accent-soft: #e6eef6;
+  --lane: #e3a412;
+  --hero-bg: #18222c;
+  --hero-ink: #f2f5f8;
+  --hero-muted: #a9b6c2;
+  --figure-bg: #ffffff;
+  --shadow: 0 1px 2px rgba(21, 32, 42, .06), 0 6px 20px rgba(21, 32, 42, .06);
+  --shadow-hover: 0 2px 4px rgba(21, 32, 42, .08), 0 14px 32px rgba(21, 32, 42, .12);
+
+  --font-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+
+  --radius: 14px;
+  --wrap: 1040px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d1318;
+    --surface: #151d25;
+    --ink: #e5ebf0;
+    --muted: #94a3b1;
+    --line: #26323d;
+    --accent: #7db2e6;
+    --accent-soft: #1b2a38;
+    --lane: #f0b72f;
+    --hero-bg: #121a22;
+    --hero-ink: #f2f5f8;
+    --hero-muted: #9fadba;
+    --figure-bg: #f4f6f8;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 6px 20px rgba(0, 0, 0, .25);
+    --shadow-hover: 0 2px 4px rgba(0, 0, 0, .35), 0 14px 32px rgba(0, 0, 0, .4);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0d1318;
+  --surface: #151d25;
+  --ink: #e5ebf0;
+  --muted: #94a3b1;
+  --line: #26323d;
+  --accent: #7db2e6;
+  --accent-soft: #1b2a38;
+  --lane: #f0b72f;
+  --hero-bg: #121a22;
+  --hero-ink: #f2f5f8;
+  --hero-muted: #9fadba;
+  --figure-bg: #f4f6f8;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 6px 20px rgba(0, 0, 0, .25);
+  --shadow-hover: 0 2px 4px rgba(0, 0, 0, .35), 0 14px 32px rgba(0, 0, 0, .4);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 400 1rem/1.65 var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; display: block; }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--lane); outline-offset: 2px; border-radius: 6px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; }
+
+.wrap { max-width: var(--wrap); margin: 0 auto; padding-inline: clamp(16px, 4vw, 32px); }
+
+/* Top bar */
+.topbar {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10;
+  background: color-mix(in srgb, var(--hero-bg) 92%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 255, 255, .06);
+}
+.topbar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 56px; }
+.topbar .brand { font: 700 1.05rem/1 var(--font-display); color: var(--hero-ink); text-decoration: none; letter-spacing: .01em; }
+.topbar nav { display: flex; gap: 4px; }
+.topbar nav a {
+  color: var(--hero-muted); text-decoration: none; font-size: .9rem; font-weight: 500;
+  padding: 6px 10px; border-radius: 8px;
+}
+.topbar nav a:hover { color: var(--hero-ink); background: rgba(255, 255, 255, .07); }
+
+/* Hero */
+.hero { background: var(--hero-bg); color: var(--hero-ink); position: relative; }
+.hero .wrap {
+  display: grid; grid-template-columns: auto 1fr; gap: clamp(24px, 4vw, 44px); align-items: center;
+  padding-block: clamp(40px, 7vw, 72px) clamp(48px, 7vw, 80px);
+}
+.avatar {
+  width: clamp(132px, 18vw, 184px); aspect-ratio: 1; object-fit: cover; object-position: 50% 18%;
+  border-radius: 50%; border: 3px solid rgba(255, 255, 255, .12); background: #fff;
+}
+.hero-text { min-width: 0; }
+.eyebrow {
+  font: 500 .78rem/1 var(--font-mono); letter-spacing: .12em; text-transform: uppercase;
+  color: var(--lane); margin: 0 0 14px;
+}
+.hero h1 { font-size: clamp(2.3rem, 6vw, 3.6rem); line-height: 1.02; font-weight: 700; letter-spacing: -.02em; }
+.hero .role { margin: 12px 0 0; color: var(--hero-muted); font-size: 1.05rem; }
+.hero .role strong { color: var(--hero-ink); font-weight: 500; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 0; padding: 0; list-style: none; }
+.chips li {
+  font-size: .82rem; padding: 4px 11px; border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, .16); color: var(--hero-ink);
+}
+.links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+.links a {
+  display: inline-flex; align-items: center; gap: 8px;
+  color: var(--hero-ink); text-decoration: none; font-size: .9rem; font-weight: 500;
+  padding: 8px 14px; border-radius: 10px; background: rgba(255, 255, 255, .07);
+  border: 1px solid rgba(255, 255, 255, .1);
+  transition: background .15s, border-color .15s;
+}
+.links a:hover { background: rgba(255, 255, 255, .13); border-color: rgba(255, 255, 255, .22); }
+.links svg { width: 16px; height: 16px; flex: none; fill: currentColor; }
+.links .email { font-family: var(--font-mono); font-size: .84rem; }
+
+/* The lane line: the one decorative flourish, a dashed road centerline under the hero. */
+.lane {
+  position: absolute; left: 0; right: 0; bottom: 18px; height: 4px;
+  background: repeating-linear-gradient(90deg, var(--lane) 0 46px, transparent 46px 82px);
+  opacity: .9;
+  animation: drive 1.6s cubic-bezier(.2, .7, .2, 1) both;
+}
+@keyframes drive { from { background-position: -410px 0; } to { background-position: 0 0; } }
+
+/* Sections */
+main { padding-block: 16px 24px; }
+section { padding-block: clamp(32px, 5vw, 48px) 0; }
+.section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; }
+h2 { font-size: clamp(1.5rem, 3vw, 1.85rem); font-weight: 700; letter-spacing: -.01em; }
+.count { font: 400 .82rem/1 var(--font-mono); color: var(--muted); }
+
+.about p { max-width: 68ch; margin: 0 0 12px; font-size: 1.05rem; }
+
+/* News */
+.news { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.news li {
+  display: grid; grid-template-columns: 88px 1fr; gap: 16px; align-items: baseline;
+  padding: 12px 0; border-bottom: 1px solid var(--line);
+}
+.news time { font: 500 .85rem/1.5 var(--font-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.news p { margin: 0; min-width: 0; }
+.venue-tag {
+  display: inline-block; font: 500 .74rem/1.4 var(--font-mono); letter-spacing: .04em;
+  padding: 1px 7px; border-radius: 6px; background: var(--accent-soft); color: var(--accent);
+  white-space: nowrap;
+}
+
+/* Publications */
+.pubs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.pub {
+  display: flex; flex-direction: column; min-width: 0;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); overflow: hidden;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.pub:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); }
+.pub figure {
+  margin: 0; background: var(--figure-bg); aspect-ratio: 16 / 9; max-width: 100%;
+  padding: 12px; border-bottom: 1px solid var(--line);
+}
+.pub figure img { width: 100%; height: 100%; object-fit: contain; }
+.pub-body { display: flex; flex-direction: column; gap: 8px; padding: 18px 20px 20px; flex: 1; min-width: 0; }
+.pub-meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.role-tag { font: 400 .74rem/1.4 var(--font-mono); color: var(--muted); }
+.pub h3 { font-size: 1.12rem; line-height: 1.3; font-weight: 700; letter-spacing: -.005em; }
+.authors { margin: 0; font-size: .9rem; color: var(--muted); }
+.authors b { color: var(--ink); font-weight: 600; }
+.desc { margin: 0; font-size: .92rem; }
+.pub-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 8px; }
+.pub-links a {
+  font: 500 .8rem/1 var(--font-mono); text-decoration: none; color: var(--accent);
+  padding: 7px 11px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface);
+  transition: background .15s, border-color .15s;
+}
+.pub-links a:hover { background: var(--accent-soft); border-color: var(--accent); }
+.pub-links .pending { font: 400 .8rem/1 var(--font-mono); color: var(--muted); padding: 7px 0; }
+
+/* Featured: newest paper spans both columns with the figure beside the text. */
+.pub.featured { grid-column: 1 / -1; flex-direction: row; }
+.pub.featured figure { flex: 1.25 1 0; aspect-ratio: auto; min-height: 280px; border-bottom: 0; border-right: 1px solid var(--line); display: flex; align-items: center; }
+.pub.featured figure img { height: auto; }
+.pub.featured .pub-body { flex: 1 1 0; padding: 24px 26px; }
+.pub.featured h3 { font-size: 1.3rem; }
+
+/* Footer */
+footer { margin-top: clamp(48px, 7vw, 72px); border-top: 1px solid var(--line); }
+footer .wrap { display: flex; flex-wrap: wrap; gap: 24px; justify-content: space-between; align-items: center; padding-block: 28px 36px; }
+footer p { margin: 0; font-size: .85rem; color: var(--muted); }
+.visitor-map { width: 260px; max-width: 100%; overflow: hidden; }
+
+@media (max-width: 760px) {
+  .pubs { grid-template-columns: minmax(0, 1fr); }
+  .pub.featured { flex-direction: column; }
+  .pub.featured figure { aspect-ratio: 16 / 9; min-height: 0; border-right: 0; border-bottom: 1px solid var(--line); }
+  .pub.featured .pub-body { padding: 18px 20px 20px; }
+}
+@media (max-width: 600px) {
+  .hero .wrap { grid-template-columns: 1fr; }
+  .topbar nav a { padding: 6px 7px; font-size: .85rem; }
+  .news li { grid-template-columns: 1fr; gap: 2px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .lane { animation: none; }
+  .pub, .pub:hover { transition: none; transform: none; }
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#top">Kaicong Huang</a>
+    <nav aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="top" style="padding:0">
+  <div class="wrap">
+    <img class="avatar" src="images/avatar.jpg" alt="Portrait of Kaicong Huang" width="184" height="184">
+    <div class="hero-text">
+      <p class="eyebrow">Ph.D. Student · Troy, NY</p>
+      <h1>Kaicong Huang</h1>
+      <p class="role">Transportation Engineering, <strong>Rensselaer Polytechnic Institute</strong> · Advisor: Dr. Ruimin Ke</p>
+      <ul class="chips" aria-label="Research interests">
+        <li>Computer Vision</li>
+        <li>3D Scene Generation</li>
+        <li>Robotic Perception</li>
+        <li>Navigation</li>
+        <li>Autonomous Driving</li>
+      </ul>
+      <div class="links">
+        <a class="email" href="mailto:huangk10@rpi.edu">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm1 2.3V17h16V7.3l-8 5.4-8-5.4ZM5.4 7l6.6 4.4L18.6 7H5.4Z"/></svg>
+          huangk10@rpi.edu
+        </a>
+        <a href="https://scholar.google.com/citations?user=8ayOdqgAAAAJ&amp;hl=en">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1 9.5l4 2.36v4.64C5 18.98 8.13 21 12 21s7-2.02 7-4.5v-4.64l2-1.18V16h2V9.5L12 3Zm0 2.32 7.06 4.18L12 13.68 4.94 9.5 12 5.32ZM7 13.04l5 2.96 5-2.96v3.46c0 1.2-2.07 2.5-5 2.5s-5-1.3-5-2.5v-3.46Z"/></svg>
+          Google Scholar
+        </a>
+        <a href="https://github.com/ccoopq">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/kaicong-huang-3652a5270/">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4V21H3V9.75Zm6.5 0h3.83v1.54h.06c.53-1.01 1.84-2.07 3.79-2.07C21.22 9.22 22 11.73 22 15v6h-4v-5.3c0-1.27-.02-2.9-1.77-2.9-1.77 0-2.04 1.38-2.04 2.8V21h-4V9.75Z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://orcid.org/0000-0001-9101-4376">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20ZM8.3 7.1a.95.95 0 1 1 0 1.9.95.95 0 0 1 0-1.9ZM7.55 10h1.5v7.25h-1.5V10Zm3.2 0h3.05c2.9 0 4.18 2.07 4.18 3.63 0 1.7-1.32 3.62-4.17 3.62h-3.06V10Zm1.5 1.35v4.55h1.45c2.07 0 2.73-1.4 2.73-2.27 0-1.22-.78-2.28-2.68-2.28h-1.5Z"/></svg>
+          ORCID
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="lane" aria-hidden="true"></div>
+</section>
+
+<main class="wrap">
+
+  <section class="about" id="about">
+    <div class="section-head"><h2>About</h2></div>
+    <p>I am a Ph.D. student at the School of Engineering, Rensselaer Polytechnic Institute. I received my M.Sc. in Robotics from the National University of Singapore in 2024, and my B.Eng. in Electronic Engineering from Sun Yat-sen University in 2023.</p>
+    <p>My research interests include Computer Vision, 3D Scene Generation, Robotic Perception, Navigation, and Autonomous Driving.</p>
+  </section>
+
+  <section id="news">
+    <div class="section-head"><h2>News</h2></div>
+    <ul class="news">
+      <li><time datetime="2026">2026</time><p><strong>CARLA-GS</strong> is accepted to <span class="venue-tag">IROS 2026</span></p></li>
+      <li><time datetime="2026">2026</time><p><strong>GHR-VLM</strong> is accepted to <span class="venue-tag">SEC 2026</span></p></li>
+      <li><time datetime="2026">2026</time><p><strong>Real2Sim</strong> and <strong>iPay</strong> are accepted to <span class="venue-tag">ITSC 2026</span></p></li>
+      <li><time datetime="2025">2025</time><p><strong>Onboard Decisions and Cloud-Scale LLM Planning</strong> is published at <span class="venue-tag">SEC 2025</span></p></li>
+      <li><time datetime="2025">2025</time><p>Our traffic co-simulation framework is published in the <em>Journal of Intelligent Transportation Systems</em></p></li>
+      <li><time datetime="2024-08">2024.08</time><p>Started my Ph.D. at Rensselaer Polytechnic Institute</p></li>
+    </ul>
+  </section>
+
+  <section id="publications">
+    <div class="section-head"><h2>Publications</h2><span class="count">11 papers · <b>bold</b> = me</span></div>
+    <div class="pubs">
+
+      <article class="pub featured">
+        <figure><img src="images/pubs/carla-gs.jpg" alt="CARLA-GS framework: Gaussian Splatting scene, LLM corner-case agents, and CARLA simulation" loading="lazy"></figure>
+        <div class="pub-body">
+          <div class="pub-meta"><span class="venue-tag">IROS 2026</span><span class="role-tag">First author</span></div>
+          <h3>CARLA-GS: Decoupling Representation, Reasoning, and Physics Simulation for Autonomous Driving Corner-Case Synthesis</h3>
+          <p class="authors"><b>Huang K</b>, Ma M, Ke R</p>
+          <p class="desc">Gaussian Splatting reconstructs editable driving scenes, an LLM-based planner identifies risky interactions and generates adversarial trajectories, and CARLA ensures physically feasible vehicle motion for photorealistic corner-case synthesis.</p>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2607.07601">arXiv</a>
+            <a href="https://github.com/ccoopq/CARLA-GS">Code</a>
+            <a href="https://ccoopq.github.io/CARLA-GS/">Project Page</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub">
+        <figure><img src="images/pubs/real2sim.jpg" alt="Real2Sim framework overview" loading="lazy"></figure>
+        <div class="pub-body">
+          <div class="pub-meta"><span class="venue-tag">ITSC 2026</span><span class="role-tag">First author</span></div>
+          <h3>Real2Sim: A Physics-Driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes</h3>
+          <p class="authors"><b>Huang K</b>, Azfar T, Shi W, Ke R</p>
+          <p class="desc">A Gaussian Splatting simulation framework that delivers high-fidelity scene generation and physics-aware in-scene editing, enabling corner cases and large-scale synthetic datasets.</p>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2605.13591">arXiv</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub">
+        <figure><img src="images/pubs/ipay.jpg" alt="iPay multimodal network overview" loading="lazy"></figure>
+        <div class="pub-body">
+          <div class="pub-meta"><span class="venue-tag">ITSC 2026</span><span class="role-tag">First author</span></div>
+          <h3>iPay: Integrated Payment Action Recognition via Multimodal Networks and Adaptive Spatial Prior Learning</h3>
+          <p class="authors"><b>Huang K</b>, Oh W, Guggisberg T, Ke R</p>
+          <p class="desc">An RGB–skeleton multimodal mixture-of-experts network with adaptive spatial prior learning for recognizing fine-grained passenger payment actions from noisy onboard surveillance video.</p>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2605.10732">arXiv</a>
+            <a href="https://github.com/ccoopq/iPay">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub">
+        <figure><img src="images/pubs/ghr-vlm.jpg" alt="GHR-VLM edge-cloud pipeline overview" loading="lazy"></figure>
+        <div class="pub-body">
+          <div class="pub-meta"><span class="venue-tag">SEC 2026</span><span class="role-tag">First author</span></div>
+          <h3>GHR-VLM: Making Zero-Shot Transit Video Analytics Realizable with Grounded Hybrid Reasoning</h3>
+          <p class="authors"><b>Huang K</b>, Oh W, Reilly J, Guggisberg T, Ke R</p>
+          <p class="desc">An edge–cloud pipeline that converts long bus videos into passenger-centered evidence for selective VLM reasoning, enabling zero-shot payment and fare-evasion analysis.</p>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2607.13569">arXiv</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub">
+        <figure><img src="images/pubs/onboard.jpg" alt="Hybrid edge-cloud planning framework overview" loading="lazy"></figure>
+        <div class="pub-body">
+          <div class="pub-meta"><span class="venue-tag">SEC 2025</span><span class="role-tag">Co-first author</span></div>
+          <h3>Onboard Decisions and Cloud-Scale LLM Planning: Split Reasoning and Collaborative Intelligence for Autonomous Driving</h3>
+          <p class="authors">Ma M*, Li S*, <b>Huang K*</b>, Azfar T, Wang N, Ke R <span>(* co-first author)</span></p>
+          <p class="desc">A hybrid edge–cloud framework for language-based driving planning that balances onboard efficiency and cloud intelligence under limited compute and network latency.</p>
+          <div class="pub-links">
+            <a href="https://dl.acm.org/doi/10.1145/3769102.3774637">Paper</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub">
+        <figure><img src="images/pubs/bmt.jpg" alt="Background Matters Too framework overview" loading="lazy"></figure>
+        <div class="pub-body">
+          <div class="pub-meta"><span class="venue-tag">arXiv 2025</span><span class="role-tag">First author</span></div>
+          <h3>Background Matters Too: A Language-Enhanced Adversarial Framework for Person Re-Identification</h3>
+          <p class="authors"><b>Huang K</b>, Azfar T, Reilly J, Guggisberg T, Ke R</p>
+          <p class="desc">A vision-language person ReID method based on foreground and background adversarial learning, improving ReID in a manner more aligned with human logic.</p>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2509.03032">arXiv</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub">
+        <figure><img src="images/pubs/transitreid.jpg" alt="TransitReID method overview" loading="lazy"></figure>
+        <div class="pub-body">
+          <div class="pub-meta"><span class="venue-tag">arXiv 2025</span><span class="role-tag">First author</span></div>
+          <h3>TransitReID: Transit OD Data Collection with Occlusion-Resistant Dynamic Passenger Re-Identification</h3>
+          <p class="authors"><b>Huang K</b>, Azfar T, Reilly J, et al.</p>
+          <p class="desc">An attention-based dynamic passenger ReID method for collecting transit origin–destination data.</p>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2504.11500">arXiv</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub">
+        <figure><img src="images/pubs/cosim.jpg" alt="CARLA and SUMO co-simulation framework" loading="lazy"></figure>
+        <div class="pub-body">
+          <div class="pub-meta"><span class="venue-tag">JITS 2025</span></div>
+          <h3>Traffic Co-Simulation Framework Empowered by Infrastructure Camera Sensing and Reinforcement Learning</h3>
+          <p class="authors">Azfar T, <b>Huang K</b>, Tracy A, Misiewicz S, Liu C, Ke R</p>
+          <p class="desc">CARLA and SUMO co-simulation where infrastructure cameras detect vehicles and feed a multi-agent reinforcement learning system for adaptive traffic signal control.</p>
+          <div class="pub-links">
+            <a href="https://www.tandfonline.com/doi/abs/10.1080/15472450.2025.2559410">Paper</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub">
+        <figure><img src="images/pubs/uav.jpg" alt="UAV-assisted edge computing overview" loading="lazy"></figure>
+        <div class="pub-body">
+          <div class="pub-meta"><span class="venue-tag">ACM JATS 2025</span></div>
+          <h3>Enhancing Disaster Resilience with UAV-Assisted Edge Computing: A Reinforcement Learning Approach to Managing Heterogeneous Edge Devices</h3>
+          <p class="authors">Azfar T, <b>Huang K</b>, Ke R</p>
+          <p class="desc">UAVs and reinforcement learning prioritize edge device maintenance and data delivery, improving network resilience in disaster scenarios.</p>
+          <div class="pub-links">
+            <a href="https://dl.acm.org/doi/pdf/10.1145/3736643">Paper</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub">
+        <figure><img src="images/pubs/od-edge.jpg" alt="Edge-AI passenger re-identification system" loading="lazy"></figure>
+        <div class="pub-body">
+          <div class="pub-meta"><span class="venue-tag">ICTD 2025</span></div>
+          <h3>Real-Time Transit O-D Data Collection via Edge-AI-Based Passenger Re-Identification</h3>
+          <p class="authors">Ye J, Azfar T, <b>Huang K</b>, Reilly J M, Ke R</p>
+          <p class="desc">A real-time passenger OD data collection framework running a ReID algorithm on edge devices.</p>
+          <div class="pub-links">
+            <a href="https://ictd-pavements2025.eventscribe.net/fsPopup.asp?PresentationID=1559781&amp;mode=presInfo">Link</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub">
+        <figure><img src="images/pubs/frvo.jpg" alt="FRVO-Mono railway visual odometry" loading="lazy"></figure>
+        <div class="pub-body">
+          <div class="pub-meta"><span class="venue-tag">IEEE TIM 2023</span><span class="role-tag">First author</span></div>
+          <h3>FRVO-Mono: Feature-Based Railway Visual Odometry With Monocular Camera</h3>
+          <p class="authors"><b>Huang K</b>, Shen Y, Chen J, Wang L, Wang S, Dai P</p>
+          <p class="desc">Monocular visual odometry for railway localization that uses vanishing points, track lines, and railway poles as multi-dimensional geometric constraints.</p>
+          <div class="pub-links">
+            <a href="https://ieeexplore.ieee.org/abstract/document/10290961">Paper</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 Kaicong Huang · Last updated October 2026</p>
+    <div class="visitor-map">
+      <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=LzudXUWNuL3d5t4wOzQtY8kHRB3WRd9q0TVwPNK1sYM&amp;cl=ffffff&amp;w=a"></script>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
